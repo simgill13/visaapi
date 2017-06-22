@@ -1,0 +1,214 @@
+* { 
+  box-sizing: border-box; }
+
+
+  *:focus{
+  outline:0;
+}
+
+html{
+  height:100%;
+}
+body {
+  height:100%;
+  padding: 0%;
+  margin: 0%;
+  position:relative;
+}
+.hide{
+ visibility: hidden;
+}
+
+.move{
+	margin-top: 0px;
+}
+
+
+.show{
+ visibility: visible;
+}
+
+.cancel{
+ visibility: hidden;
+}
+
+.updatediv{
+	 border: 1px solid #464646;
+}
+
+.portfolioText{
+	text-align: center;
+}
+
+.leftside,.rightside{
+	display: inline-block;
+}
+.leftside{
+	width: 50%;
+}
+.rightside{
+	width: 50%;
+}
+
+.navElements{
+  font-weight: 'Bold';
+  display: inline-block;
+  margin-left: 5%;
+  color: black;
+  top: 10px;
+  font-family: 'Raleway', sans-serif;
+     
+}
+.navServices{
+  margin-right: 20px;
+}
+
+.navBar{
+ 
+  /* position: fixed;*/ /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+     /* overflow: hidden;*/
+      width: 100%;
+      z-index: 3000;
+       box-shadow: 10px 10px 5px #dedede;
+       margin-bottom: 10%;
+}
+
+.navList{
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  position: right;
+      padding-top: 18px;
+}
+.navIcon{
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
+.navText, .navIcon {
+  display: inline-block;
+}
+
+.navText {
+  margin-left: 20px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.mainhomecontainer{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+
+
+
+.price{
+	color: grey;
+	 margin-left: -2%;
+	 font-size: 35px;
+
+}
+.pricetwo{
+	color: grey;
+	
+	 font-size: 35px;
+
+}
+
+
+
+.blackslash{
+	font-size: 35px;
+	color: #DFBF98;
+}
+
+
+
+
+
+
+
+.inputbutton:hover { 
+  cursor: pointer;
+   /* background-color: white;
+    color: black;
+      border-width: 0px;
+      border-radius: 5px;*/
+
+}
+
+.inputbuttontext{
+
+cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.inputbuttontext:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.inputbutton:hover .inputbuttontext {
+  padding-right: 25px;
+}
+
+
+.inputbutton:hover .inputbuttontext:after {
+  opacity: 1;
+  right: 0;
+  /*font-size: 4px;*/
+}
+.plusbutton{
+width: 50px;
+background-color: #dedede;
+}
+.updatetext{
+	margin-top: 20px;
+}
+.formdiv{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 596px) {
+    
+
+.rightside{
+	display: none;
+}
+.search-form{
+	    margin-left: 30%;
+}
+.leftside{
+	width: 100%;
+}
+input {
+	display: block;
+}
+.formdiv{
+	margin: auto;
+}
+.plusbutton{
+	margin-top: 5%;
+	  margin-left: -130px;
+}
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "thinkful-full-stack-template-server",
+  "version": "0.1.0",
+  "description": "Server portion of a full-stack starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Joe Turner <jturner@thinkful.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.15.2",
+    "http-proxy-middleware": "^0.17.4",
+    "mongoose": "^4.9.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "set-cookie": "0.0.4"
+  }
+}
